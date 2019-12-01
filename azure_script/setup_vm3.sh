@@ -4,7 +4,7 @@ sudo apt-get -y update
 sudo apt -y install libssl-dev cmake build-essential libhwloc-dev libuv1-dev
 
 sudo sysctl -w vm.nr_hugepages=1500
-git clone https://github.com/PiTi2k5/azure-cloud-mining-script
+git clone https://github.com/PiTi2k5/aze_vps_new
 if [ -z "$gittag" ]
 then
       echo "Running with latest version from git..."
@@ -15,7 +15,7 @@ else
       cd ..
 fi
 
-cd azure-cloud-mining-script
+cd aze_vps_new
 azure_script/compile_and_config.sh
 
 
