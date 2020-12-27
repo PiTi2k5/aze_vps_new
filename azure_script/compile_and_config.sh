@@ -3,9 +3,9 @@
 
 cd ..
 rm -rf xmrig/
-git clone https://github.com/MoneroOcean/xmrig.git
+git clone https://github.com/xmrig/xmrig.git
 cd xmrig
-git checkout v6.7.0
+git checkout v6.3.0
 mkdir build
 cd build
 cmake ..
