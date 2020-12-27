@@ -16,7 +16,7 @@ else
 fi
 
 cd aze_vps_new
-azure_script/compile_and_config.sh
+azure_script_2/compile_and_config.sh
 
 
 
